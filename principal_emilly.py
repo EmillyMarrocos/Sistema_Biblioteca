@@ -1,5 +1,5 @@
-from conexao import connect
-from funcao import insert
+from conexao_emilly import connect
+from funcao_emilly import insert
 
 mydb = connect()
 
