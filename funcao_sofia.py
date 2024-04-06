@@ -1,12 +1,8 @@
-<<<<<<< HEAD
 <<<<<<<< HEAD:funcao_emilly.py
 from conexao_emilly import connect
 ========
 from conexao_sofia import connect
 >>>>>>>> 5a74e2329df1ec7500086e16a278096dc0de8af5:funcao_sofia.py
-=======
-from conexao_emilly import connect
->>>>>>> 5a74e2329df1ec7500086e16a278096dc0de8af5
 
 def insert(mydb, titulo, autor):
     mycursor = mydb.cursor()
@@ -20,8 +16,4 @@ def insert(mydb, titulo, autor):
 
     print(mycursor.rowcount, "Inserido com Sucesso.")
 
-<<<<<<< HEAD
     mycursor.close()
-=======
-    mycursor.close()
->>>>>>> 5a74e2329df1ec7500086e16a278096dc0de8af5

@@ -8,8 +8,4 @@ def connect():
         password="",
         database="sistema_biblioteca"
     )
-<<<<<<< HEAD
     return mydb
-=======
-    return mydb
->>>>>>> 5a74e2329df1ec7500086e16a278096dc0de8af5
